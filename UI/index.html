@@ -5,29 +5,42 @@
     <title>Student Management</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
     </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="head-text">
-          <h3>Student management system</h3>
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <a class="navbar-brand" href="#">STM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-4 ">
-          <div class="nav nav-tabs">
-              <a href="#" class="border-bottom border-dark">Home</a>
-              <a href="#" class="border-bottom border-dark">Link 1</a>
-              <a href="#" class="border-bottom border-dark">Link 2</a>
-              <a href="#" class="border-bottom border-dark">Link 3</a>
-              <a href="#" class="border-bottom border-dark">Link 4</a>
-          </div>
-        </div>
-        <div class="col-8">
-
-        </div>
-
       </div>
     </div>
   </body>
