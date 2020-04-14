@@ -1,4 +1,15 @@
-.navbar{
-  background-color: #e3f2fd;
-  color: #ffffff;
+.header{
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-image: url("img/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px
+
+}
+
+.btn{
+  font-size: 20px;
+  height: 70px;
 }
