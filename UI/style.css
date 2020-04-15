@@ -1,15 +1,27 @@
 .header{
-  text-align: left;
+  text-align: center;
   padding: 20px;
   margin-bottom: 20px;
-  background-image: url("img/bg2.jpg");
+  background-image: url("img/back1.jpg");
   background-position: center;
   background-size: cover;
-  height: 450px
-
+  height: 100px
 }
 
-.btn{
+.nav-tabs{
   font-size: 20px;
-  height: 70px;
+}
+.tab-pane{
+  font-size: 16px;
+  margin-right: 0px;
+  margin-top: 45px;
+}
+
+.card{
+  width: 80rem;
+  height: 50rem;
+}
+.form-check-input{
+  height: 25px;
+  width: 25px;
 }
