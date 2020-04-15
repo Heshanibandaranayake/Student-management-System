@@ -10,6 +10,7 @@
 
 .nav-tabs{
   font-size: 20px;
+
 }
 .tab-pane{
   font-size: 16px;
@@ -18,10 +19,9 @@
 }
 
 .card{
-  width: 80rem;
-  height: 50rem;
+  width: 50rem;
 }
-.form-check-input{
-  height: 25px;
-  width: 25px;
+
+.heading{
+  color: #0A1EFF;
 }
