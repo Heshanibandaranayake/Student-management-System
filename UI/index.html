@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>Student Management</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 
@@ -29,8 +30,8 @@
           </ul>
           <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-              <div class="rowSpan">
-                <div class="col">
+              <div class="row">
+                <div class="col-9">
                   <div class="card">
                     <div class="card-body">
                       <form>
@@ -38,7 +39,7 @@
                           <label for="StudentHeading">New Student</label>  <hr>
                         </div>
                         <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                             <div class="form-group">
                               <label for="StudentName">Student ID</label>
                               <input type="text" class="form-control" id="StudentID">
@@ -52,19 +53,42 @@
                               <input type="text" class="form-control" id="StudentAddress">
                             </div>
                           </div>
-                          <div class="col">
+                          <div class="col-6">
                             <div class="form-group">
-                              <label for="StudentCourse">Student Courses</label>
+                              <label for="StudentCourse">Student Courses</label><br>
+                              <!--<div class="form-check">
+                                <label class="form-check-label" for="inlineCheckbox1">Information Communication Technology</label>
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label" for="inlineCheckbox1">Advanced English</label>
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label" for="inlineCheckbox1">Combined Mathematics</label>
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              </div>-->
                             </div>
-                            <select class="form-control form-control-lg">
-                              <option>ICT</option>
-                              <option>Advanced English</option>
-                              <option>Combined Mathematics</option>
-                              <option>Business Management</option>
-                            </select>
                           </div>
                         </div>
                       </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="row buttons">
+                    <div class="col">
+                      <button type="button" name="button" class="btn btn-primary">Add</button>
+                    </div>
+                  </div>
+                  <div class="row buttons">
+                    <div class="col">
+                      <button type="button" name="button" class="btn btn-primary">Delete</button>
+                    </div>
+                  </div>
+                  <div class="row buttons">
+                    <div class="col">
+                      <button type="button" name="button" class="btn btn-primary">Update</button>
                     </div>
                   </div>
                 </div>
